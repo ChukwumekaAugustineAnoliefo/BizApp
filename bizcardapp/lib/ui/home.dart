@@ -9,7 +9,7 @@ class BizCardApp extends StatelessWidget {
       height: 200,
       margin: const EdgeInsets.all(50),
       decoration: BoxDecoration(
-        color: Colors.pinkAccent,
+        color: Colors.red.shade200,
         borderRadius: BorderRadius.circular(15),
       ),
       child: const Column(
@@ -72,7 +72,7 @@ class BizCardApp extends StatelessWidget {
           "Bizcard",
         ),
       ),
-      backgroundColor: Colors.pinkAccent,
+      //  backgroundColor: Colors.pinkAccent,
       body: Container(
         alignment: Alignment.center,
         child: Stack(
