@@ -30,11 +30,22 @@ class BizCardApp extends StatelessWidget {
         color: Colors.pinkAccent,
         borderRadius: BorderRadius.circular(15),
       ),
-      child: Column(
+      child: const Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text('TechieChuks Flutter'),
-          Text('com.github/ChukwuemekaAA')
+          Text('com.github/ChukwuemekaAA'),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(
+                Icons.person_outline,
+              ),
+              Text(
+                'T: @FluttrApprentice',
+              ),
+            ],
+          )
         ],
       ),
     );
